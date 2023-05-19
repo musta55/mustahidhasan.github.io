@@ -66,10 +66,7 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Reactjs',
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
-        {
-          skillName: 'Unity',
-          fontAwesomeClassName: 'logos:unity',
-        },
+
         {
           skillName: 'Nodejs',
           fontAwesomeClassName: 'logos:nodejs',
@@ -91,7 +88,9 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
         ),
-        emoji('⚡ Industry experience of building private cloud Blockchain network'),
+        emoji(
+          '⚡ Industry experience of building private cloud Blockchain network'
+        ),
 
         emoji(
           '⚡ Building industry standard full stack Dapps with React.js & Solidity using Web3.js, Thirdweb, Hardhat & IPFS'
@@ -131,7 +130,7 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
+      title: 'Game Development, AR Development',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Experience of working on multiple cloud platforms'),
@@ -145,21 +144,21 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         // ? Check README To get icon details
         {
-          skillName: 'mySQL',
-          fontAwesomeClassName: 'logos:mysql',
+          skillName: 'Unity',
+          fontAwesomeClassName: 'logos:unity',
         },
         {
-          skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
+          skillName: 'Vuforia',
+          fontAwesomeClassName: 'logos:head-side-goggles',
         },
-        {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        }
+        // {
+        //   skillName: 'Docker',
+        //   fontAwesomeClassName: 'logos:docker-icon',
+        // },
+        // {
+        //   skillName: 'Nginx',
+        //   fontAwesomeClassName: 'logos:nginx',
+        // }
       ],
     },
   ],
@@ -167,102 +166,139 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Frontend', //Insert stack or technology you have experience in
+    progressPercentage: '80', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
-    progressPercentage: '70',
+    Stack: 'Blockchain/Backend',
+    progressPercentage: '90',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '70',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'University of Dhaka',
+    subHeader: 'Bachelor of Science in Software Engineering',
+    duration: 'January 2019 - December 2023',
+    desc: 'Undergrad student from IIT, DU',
+    grade: 'CGPA 3.90',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Participated in the SCORE ICSE Competition',
+      'Became Champion of several national competition',
+      // 'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+      // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+  {
+    schoolName: 'Notre Dame College',
+    subHeader: 'Dhaka Board',
+    duration: 'June 2016 - December 2018',
+    desc: 'Completed Higher Secondary School Certificate',
+    grade: 'GPA: 5.00',
+    descBullets: [
+      'Secured General Scholarship from Dhaka Board',
+      'Executive Member of Notre Dame English Club',
+    ],
+  },
+  {
+    schoolName: 'Chittagong Collegiate School',
+    subHeader: 'Bachelor of Science in Software Engineering',
+    duration: 'May 2016',
+    desc: 'Completed Higher Secondary School Certificate',
+    grade: 'CGPA 3.90',
+    descBullets: [
+      'Secured Talentpool Scholarship from Chittagong Board, position 2nd',
+      // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'AR Developer',
+    company: 'Fin2tech Solutions Limited',
+    companyLogo: '/img/icons/common/fin2tech.jpg',
+    date: 'july 2023 -Now ',
+    desc: 'Working as a investigator/research assistant on a startup app named "Chemouflage" which is backed by ICT Division Innovation Fund. Currenty the work is in progress',
+  },
+  {
+    role: 'Web3 Full Stack Developer',
+    company: 'Leads Corporation Bangladesh',
+    companyLogo: '/img/icons/common/leaads.jpg',
+    date: 'December 2022 – June 2023',
+    desc: 'I worked as web3 full stack developer trainee to design web based apps, decentralized apps using Solidity, Hardhat, Ethereum, thirdweb, Chart.js and some other libraries.',
   },
   {
     role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    company: 'Somra MBL Limited',
+    companyLogo: '/img/icons/common/somra.png',
+    date: 'May 2023 – July 2023',
+    desc: 'I worked as API Developer to integrate their project with facebook for sentiment analysis and data analytics, research insights.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Chemouflage',
+    desc: 'Chemouflage is an Educational Software Based on Bangladeshs secondary level NCTB Chemistry textbook.It helps to learn Chemistry  in an interactive way with Gamification technology and Augmented Reality',
+    github: 'https://github.com/TasmiaZerin1128/Chemouflage.git',
+    link: 'https://www.youtube.com/watch?v=-kVnST2bqhc',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Leads-NFT',
+    desc: 'Building an NFT marketplace from scratch like opensea that connect buyers and sellers. In this marketplace, user can mint their own NFT, can see NFT of others. If anyone want to buy nft, they can own nft by paying certain ether with decentralized storage. ',
+    github: 'https://github.com/musta55/leadsNFT_nft-marketplace',
+    link: 'https://leads-nftmarketplace.netlify.app/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Decentralized Crowdfunding Dapps',
+    desc: 'A crowdfunding application is a platform to create campaign and donate to the campaign which is secured by blockchain technology.',
+    github: 'https://github.com/musta55/project_crowdfunding',
+    link: 'https://charityfundingdapps.netlify.app/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Decentralized Lottery Application',
+    desc: 'Lottery management system secured by blockchain technology that ensures security and transparency.',
+    github: 'https://github.com/musta55/Lottery-DApp',
+    link: 'https://lotteryblockchain.netlify.app/',
+  },
+  {
+    name: 'Connect 4 AI Apps',
+    desc: `A game to connect 4 dots.There is 2 mode ,one is 'two players' another one is 'play with AI'`,
+    github: 'https://github.com/musta55/connect4',
+    link: ' https://connect4play.netlify.app/',
+  },
+  {
+    name: 'EduChain',
+    desc: 'Blockchain based course provider apps.User can enroll to the courses earn nft and many more.',
+    github: 'https://github.com/jsureka/BUET_Hackathon_GGWP',
+  },
+  {
+    name: 'Somra Social Media Apps Research',
+    desc: 'Research based project enhancing the ability to data analytics',
+    link: 'https://somra.netlify.app/',
+    github: 'https://github.com/jsureka/BUET_Hackathon_GGWP',
+  },
+  {
+    name: 'Khela Hobe',
+    desc: 'An web application to showcase popular online tranding games',
+    github: 'https://github.com/jaf107/origin-mtm',
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
+    name: 'Shamsul Haque',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      'Very passionate and enthusiastic about technology',
   },
 ];
 
@@ -271,10 +307,10 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Mustahid Hasan',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+  author: 'Mustahid',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
