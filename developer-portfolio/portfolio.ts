@@ -247,12 +247,14 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    image: '/img/icons/common/ar5.jpg',
     name: 'Chemouflage',
     desc: 'Chemouflage is an Educational Software Based on Bangladeshs secondary level NCTB Chemistry textbook.It helps to learn Chemistry  in an interactive way with Gamification technology and Augmented Reality',
     github: 'https://github.com/TasmiaZerin1128/Chemouflage.git',
     link: 'https://www.youtube.com/watch?v=-kVnST2bqhc',
   },
   {
+    image: '/img/icons/common/nfts.jpg',
     name: 'Leads-NFT',
     desc: 'Building an NFT marketplace from scratch like opensea that connect buyers and sellers. In this marketplace, user can mint their own NFT, can see NFT of others. If anyone want to buy nft, they can own nft by paying certain ether with decentralized storage. ',
     github: 'https://github.com/musta55/leadsNFT_nft-marketplace',
@@ -265,29 +267,34 @@ export const projects: ProjectType[] = [
     link: 'https://charityfundingdapps.netlify.app/',
   },
   {
+    image: '/img/icons/common/lottery.jpg',
     name: 'Decentralized Lottery Application',
     desc: 'Lottery management system secured by blockchain technology that ensures security and transparency.',
     github: 'https://github.com/musta55/Lottery-DApp',
     link: 'https://lotteryblockchain.netlify.app/',
   },
   {
+    image: '/img/icons/common/connect4.jpg',
     name: 'Connect 4 AI Apps',
     desc: `A game to connect 4 dots.There is 2 mode ,one is 'two players' another one is 'play with AI'`,
     github: 'https://github.com/musta55/connect4',
     link: ' https://connect4play.netlify.app/',
   },
   {
+    image: '/img/icons/common/educhain.png',
     name: 'EduChain',
     desc: 'Blockchain based course provider apps.User can enroll to the courses earn nft and many more.',
     github: 'https://github.com/jsureka/BUET_Hackathon_GGWP',
   },
   {
-    name: 'Somra Social Media Apps Research',
+    image: '/img/icons/common/chemouflage.jpg',
+    name: 'Somra Apps',
     desc: 'Research based project enhancing the ability to data analytics',
     link: 'https://somra.netlify.app/',
     github: 'https://github.com/jsureka/BUET_Hackathon_GGWP',
   },
   {
+    image: '/img/icons/common/khelahobe.png',
     name: 'Khela Hobe',
     desc: 'An web application to showcase popular online tranding games',
     github: 'https://github.com/jaf107/origin-mtm',
@@ -296,10 +303,26 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'Shamsul Haque',
+    name: 'ICT Division Innovation Fund',
     feedback:
-      'Very passionate and enthusiastic about technology',
+      `ICT Division, Governement of the people's republic of Bangladesh | 2023`,
   },
+  {
+    name: 'Semi Finalist',
+    feedback:
+      'SCORE | Internation Conference of Software Engineering (ICSE) | 2023',
+  },
+  {
+    name: 'Champion',
+    feedback:
+      'Hackathon 2022 | Web3 | Bangladesh University of Engineering Technology(BUET) | Dhaka, Bangladesh',
+  },
+  {
+    name: 'Champion',
+    feedback:
+      'Project Showcasing 2022 | Rajshahi University of Engineering Technology | Rajshahi, Bangladesh',
+  },
+  
 ];
 
 // option to hide or show the ContactUs component
@@ -312,14 +335,12 @@ export const seoData: SEODataType = {
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Mustahid',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://musta55.github.io/MustahidHasan',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Mustahid',
+    'Mustahid Hasan',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Mustahid Portfolio ',
+    'Mustahid Hasan Portfolio',
   ],
 };
