@@ -228,7 +228,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Web3 Full Stack Developer',
     company: 'Leads Corporation Bangladesh',
-    companyLogo: '/img/icons/common/leaads.jpg',
+    companyLogo: '/img/icons/common/leads.jpg',
     date: 'December 2022 – June 2023',
     desc: 'I worked as web3 full stack developer trainee to design web based apps, decentralized apps using Solidity, Hardhat, Ethereum, thirdweb, Chart.js and some other libraries.',
   },
