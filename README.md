@@ -5,11 +5,11 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+<!--     <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img> -->
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+<!-- ## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**. -->
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
