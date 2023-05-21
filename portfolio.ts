@@ -261,6 +261,7 @@ export const projects: ProjectType[] = [
     link: 'https://leads-nftmarketplace.netlify.app/',
   },
   {
+    image: '/img/icons/common/crowd.png',
     name: 'Decentralized Crowdfunding Dapps',
     desc: 'A crowdfunding application is a platform to create campaign and donate to the campaign which is secured by blockchain technology.',
     github: 'https://github.com/musta55/project_crowdfunding',
