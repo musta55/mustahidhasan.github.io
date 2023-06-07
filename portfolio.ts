@@ -46,7 +46,7 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
+        emoji('⚡ Building responsive static websites using React.js'),
         emoji('⚡ Building RESTful APIs in Nodejs & Nodejs REST Framework'),
       ],
       softwareSkills: [
@@ -133,12 +133,12 @@ export const skillsSection: SkillsSectionType = {
       title: 'Game Development, AR Development',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji('⚡ Experience of working on Augmented reality'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Building AR enabled edtech apps along with gamification technology'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Constructing different types of AR/VR games in unity'
         ),
       ],
       softwareSkills: [
@@ -209,7 +209,7 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Bachelor of Science in Software Engineering',
     duration: 'May 2016',
     desc: 'Completed Higher Secondary School Certificate',
-    grade: 'CGPA 3.90',
+    grade: 'GPA 5.00',
     descBullets: [
       'Secured Talentpool Scholarship from Chittagong Board, position 2nd',
       // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
