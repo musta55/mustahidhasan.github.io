@@ -1,3 +1,45 @@
 body > div:first-child {
   overflow-x: hidden;
 }
+
+.profile-picture-container {
+  position: relative;
+  width: 450px;
+  height: 290px;
+  perspective: 800px;
+
+}
+
+.profile-picture-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+}
+
+.profile-picture-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  transition: transform 0.5s;
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10%;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  border-radius: 10%;
+}
+
+.profile-picture-frame:hover {
+  /* transform: rotateY(180deg); */
+  transform: scale(1.04);
+}

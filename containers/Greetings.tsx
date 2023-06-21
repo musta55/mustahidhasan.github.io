@@ -3,6 +3,7 @@ import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+import Profile from '../components/Profile';
 
 const Greetings = () => {
   useEffect(() => {
@@ -29,7 +30,7 @@ const Greetings = () => {
           <Container className="py-lg-md d-flex">
             <div className="col px-0">
               <Row>
-                <Col lg="6">
+                <Col lg="8">
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
@@ -50,8 +51,9 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                <Col lg="4">
+                  {/* <GreetingLottie animationPath="img\icons\common\profile.png" /> */}
+                  <Profile Imagepath = "img\icons\common\profile.png"></Profile>
                 </Col>
               </Row>
             </div>

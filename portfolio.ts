@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Mustahid Hasan',
   title: "Hi all, I'm Mustahid",
   description:
-    "I'm passionate Full Stack web and web3 developer having an experience of web applications with Javascript, Node.js, React.js, Angular, Blockchain development on Ethereum, Solidity, Hardhat Web3.js, Hyperledger, Polygon Edge Framework and Game Development on Unity, Vuforia",
+    "I'm passionate Full Stack web and web3 developer having an experience of Web Development, Blockchain Development and Game Development",
   resumeLink:
     'https://drive.google.com/file/d/1lBn3xnm8D4Z6e3bVIE5mjUFlUE7KiNCE/view?usp=sharing',
 };
@@ -29,7 +29,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   url: 'https://www.linkedin.com/in/mustahid-hasan-042241225',
   linkedin: 'https://www.linkedin.com/in/mustahid-hasan-042241225',
-  github: 'https://www.linkedin.com/in/mustahid-hasan-042241225',
+  github: 'https://github.com/musta55',
   leetcode: 'https://leetcode.com/Mustahid/',
   facebook: 'https://www.facebook.com/mustahidhasan.sakib',
   youtube: 'https://www.youtube.com/channel/UCLfcHcT328NyPEtNhbloDpg',
