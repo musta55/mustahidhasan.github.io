@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack web and web3 developer having an experience of Web Development, Blockchain Development and Game Development",
   resumeLink:
-    'https://drive.google.com/file/d/1lBn3xnm8D4Z6e3bVIE5mjUFlUE7KiNCE/view?usp=sharing',
+    'https://drive.google.com/file/d/1NQbvaWuTJVXlyEHC2_ryD-3_BsJnFTdJ/view?usp=sharing',
 };
 
 export const openSource = {
@@ -35,134 +35,134 @@ export const socialLinks: SocialLinksType = {
   youtube: 'https://www.youtube.com/channel/UCLfcHcT328NyPEtNhbloDpg',
 };
 
-export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
-  data: [
-    {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using React.js'),
-        emoji('⚡ Building RESTful APIs in Nodejs & Nodejs REST Framework'),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          fontAwesomeClassName: 'logos:javascript',
-        },
-        {
-          skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
-        },
+// export const skillsSection: SkillsSectionType = {
+//   title: 'What I do',
+//   subTitle: 'FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+//   data: [
+//     {
+//       title: 'Full Stack Development',
+//       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+//       skills: [
+//         emoji(
+//           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+//         ),
+//         emoji('⚡ Building responsive static websites using React.js'),
+//         emoji('⚡ Building RESTful APIs in Nodejs & Nodejs REST Framework'),
+//       ],
+//       softwareSkills: [
+//         {
+//           skillName: 'HTML-5',
+//           fontAwesomeClassName: 'vscode-icons:file-type-html',
+//         },
+//         {
+//           skillName: 'CSS-3',
+//           fontAwesomeClassName: 'vscode-icons:file-type-css',
+//         },
+//         {
+//           skillName: 'JavaScript',
+//           fontAwesomeClassName: 'logos:javascript',
+//         },
+//         {
+//           skillName: 'Reactjs',
+//           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+//         },
 
-        {
-          skillName: 'Nodejs',
-          fontAwesomeClassName: 'logos:nodejs',
-        },
-        {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Github',
-          fontAwesomeClassName: 'logos:github',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain Technology',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Industry experience of building private cloud Blockchain network'
-        ),
+//         {
+//           skillName: 'Nodejs',
+//           fontAwesomeClassName: 'logos:nodejs',
+//         },
+//         {
+//           skillName: 'NPM',
+//           fontAwesomeClassName: 'logos:npm-icon',
+//         },
+//         {
+//           skillName: 'Github',
+//           fontAwesomeClassName: 'logos:github',
+//         },
+//       ],
+//     },
+//     {
+//       title: 'Blockchain Technology',
+//       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+//       skills: [
+//         emoji(
+//           '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+//         ),
+//         emoji(
+//           '⚡ Industry experience of building private cloud Blockchain network'
+//         ),
 
-        emoji(
-          '⚡ Building industry standard full stack Dapps with React.js & Solidity using Web3.js, Thirdweb, Hardhat & IPFS'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Hardhat, Truffle, Thirdweb'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
-        {
-          skillName: 'Hardhat',
-          fontAwesomeClassName: 'logos:hardhat',
-        },
-      ],
-    },
-    {
-      title: 'Game Development, AR Development',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on Augmented reality'),
-        emoji(
-          '⚡ Building AR enabled edtech apps along with gamification technology'
-        ),
-        emoji(
-          '⚡ Constructing different types of AR/VR games in unity'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'Unity',
-          fontAwesomeClassName: 'logos:unity',
-        },
-        {
-          skillName: 'Vuforia',
-          fontAwesomeClassName: 'logos:head-side-goggles',
-        },
-        // {
-        //   skillName: 'Docker',
-        //   fontAwesomeClassName: 'logos:docker-icon',
-        // },
-        // {
-        //   skillName: 'Nginx',
-        //   fontAwesomeClassName: 'logos:nginx',
-        // }
-      ],
-    },
-  ],
-};
+//         emoji(
+//           '⚡ Building industry standard full stack Dapps with React.js & Solidity using Web3.js, Thirdweb, Hardhat & IPFS'
+//         ),
+//         emoji(
+//           '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Hardhat, Truffle, Thirdweb'
+//         ),
+//         emoji(
+//           '⚡ Experience of using Openzeppelin Smart Contract Standards & IPFS'
+//         ),
+//       ],
+//       softwareSkills: [
+//         {
+//           skillName: 'Ethereum',
+//           fontAwesomeClassName: 'logos:ethereum',
+//         },
+//         {
+//           skillName: 'Solidity',
+//           fontAwesomeClassName: 'logos:solidity',
+//         },
+//         {
+//           skillName: 'Web3js',
+//           fontAwesomeClassName: 'logos:web3js',
+//         },
+//         {
+//           skillName: 'Metamask',
+//           fontAwesomeClassName: 'logos:metamask-icon',
+//         },
+//         {
+//           skillName: 'Ganache',
+//           fontAwesomeClassName: 'logos:ganache-icon',
+//         },
+//         {
+//           skillName: 'Hardhat',
+//           fontAwesomeClassName: 'logos:hardhat',
+//         },
+//       ],
+//     },
+//     {
+//       title: 'Game Development, AR Development',
+//       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+//       skills: [
+//         emoji('⚡ Experience of working on Augmented reality'),
+//         emoji(
+//           '⚡ Building AR enabled edtech apps along with gamification technology'
+//         ),
+//         emoji(
+//           '⚡ Constructing different types of AR/VR games in unity'
+//         ),
+//       ],
+//       softwareSkills: [
+//         // ? Check README To get icon details
+//         {
+//           skillName: 'Unity',
+//           fontAwesomeClassName: 'logos:unity',
+//         },
+//         {
+//           skillName: 'Vuforia',
+//           fontAwesomeClassName: 'logos:head-side-goggles',
+//         },
+//         // {
+//         //   skillName: 'Docker',
+//         //   fontAwesomeClassName: 'logos:docker-icon',
+//         // },
+//         // {
+//         //   skillName: 'Nginx',
+//         //   fontAwesomeClassName: 'logos:nginx',
+//         // }
+//       ],
+//     },
+//   ],
+// };
 
 export const SkillBars: SkillBarsType[] = [
   {
@@ -185,7 +185,7 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Bachelor of Science in Software Engineering',
     duration: 'January 2019 - December 2023',
     desc: 'Undergrad student from IIT, DU',
-    grade: 'CGPA 3.90',
+    grade: 'CGPA 3.92',
     descBullets: [
       'Participated in the SCORE ICSE Competition',
       'Became Champion of several national competition',
@@ -208,7 +208,7 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Chittagong Collegiate School',
     subHeader: 'Bachelor of Science in Software Engineering',
     duration: 'May 2016',
-    desc: 'Completed Higher Secondary School Certificate',
+    desc: 'Completed Secondary School Certificate',
     grade: 'GPA 5.00',
     descBullets: [
       'Secured Talentpool Scholarship from Chittagong Board, position 2nd',
@@ -268,11 +268,11 @@ export const projects: ProjectType[] = [
     link: 'https://charityfundingdapps.netlify.app/',
   },
   {
-    image: '/img/icons/common/lottery.jpg',
-    name: 'Decentralized Lottery Application',
-    desc: 'Lottery management system secured by blockchain technology that ensures security and transparency.',
-    github: 'https://github.com/musta55/Lottery-DApp',
-    link: 'https://lotteryblockchain.netlify.app/',
+    image: '/img/icons/common/clippy.png',
+    name: 'Clippy:A Smart PDF Reader',
+    desc: 'Smart PDF Reader for better Paper Reading Experience and Knowledge Mining.Clippy comes with two types of summarization: extractive and abstractive . Clippy will highlight the important sentences from the paper if extractive summary is selected.',
+    github: 'https://github.com/jaf107/Clippy',
+    link: 'https://www.youtube.com/watch?v=gEyYHD3tCuk',
   },
   {
     image: '/img/icons/common/connect4.jpg',
@@ -316,14 +316,13 @@ export const feedbacks: FeedbackType[] = [
   {
     name: 'Champion',
     feedback:
-      'Hackathon 2022 | Web3 | Bangladesh University of Engineering Technology(BUET) | Dhaka, Bangladesh',
+      'Bangladesh Blockchain Olympiad | 2023',
   },
   {
     name: 'Champion',
     feedback:
-      'Project Showcasing 2022 | Rajshahi University of Engineering Technology | Rajshahi, Bangladesh',
-  },
-  
+      'Hackathon 2022 -23 | Web3 | Bangladesh University of Engineering Technology(BUET) | Dhaka, Bangladesh',
+  }
 ];
 
 // option to hide or show the ContactUs component
@@ -335,7 +334,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Mustahid',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+ // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://musta55.github.io/MustahidHasan',
   keywords: [
     'Mustahid',

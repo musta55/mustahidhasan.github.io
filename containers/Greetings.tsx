@@ -15,7 +15,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-blue">
+          <div className="shape shape-style-1 bg-gradient-purple">
 
             <span />
             <span />
@@ -46,14 +46,14 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Resume</span>
                       </Button>
                     </div>
                   )}
                 </Col>
                 <Col lg="4">
                   {/* <GreetingLottie animationPath="img\icons\common\profile.png" /> */}
-                  <Profile Imagepath = "img\icons\common\profile.png"></Profile>
+                  <Profile Imagepath = "img\icons\common\Musta.png"></Profile>
                 </Col>
               </Row>
             </div>
