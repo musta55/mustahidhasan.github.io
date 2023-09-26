@@ -1,6 +1,6 @@
-module.exports = {
-  reactStrictMode: false,
-  images: {
-    domains: ['avatars.githubusercontent.com'],
-  },
+const nextConfig = {
+  reactStrictMode: true,
+  distDir: 'dist'
 };
+
+module.exports = nextConfig;
