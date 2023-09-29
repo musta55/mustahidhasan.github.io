@@ -35,6 +35,7 @@ const Greetings = () => {
                     {greetings.title + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
+                  <p className="lead text-white">       My Personality Type -{' '} <a href="https://www.16personalities.com/profiles/a3d4c5137f568"  style={{ color: 'yellow', textDecoration: 'none' }}>{greetings.personality}</a></p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">

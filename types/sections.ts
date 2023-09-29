@@ -19,6 +19,7 @@ export type GreetingsType = {
   name: string;
   title: string;
   description?: string;
+  personality?: string;
   resumeLink?: string;
 };
 

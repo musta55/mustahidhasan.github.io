@@ -14,7 +14,8 @@ export const greetings: GreetingsType = {
   name: 'Mustahid Hasan',
   title: "Hi all, I'm Mustahid",
   description:
-    "I'm passionate Full Stack web and web3 developer having an experience of Web Development, Blockchain Development and Game Development",
+    `I'm passionate Full Stack web developer having an experience of Web Development, Blockchain Development and Game Development. I love to play games like valorant, fifa.Currently reading - 'Becoming Michelle Obama'`,
+  personality:'INTJ- T',
   resumeLink:
     'https://drive.google.com/file/d/1NQbvaWuTJVXlyEHC2_ryD-3_BsJnFTdJ/view?usp=sharing',
 };
@@ -174,7 +175,7 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Programming',
-    progressPercentage: '70',
+    progressPercentage: '76',
   },
 ];
 
@@ -187,6 +188,7 @@ export const educationInfo: EducationType[] = [
     grade: 'CGPA 3.92',
     descBullets: [
       'Participated in the SCORE ICSE Competition',
+      'Became Champion of Bangladesh Blockchain Olympiad 2023',
       'Became Champion of several national competition',
       // 'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
       // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
