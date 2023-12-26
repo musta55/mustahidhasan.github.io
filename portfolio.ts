@@ -12,12 +12,12 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Mustahid Hasan',
-  title: "Hi all, I'm Mustahid",
+  title: "Hello there! 👋 I'm Mustahid",
   description:
-    `I'm passionate Full Stack web developer having an experience of Web Development, Blockchain Development and Game Development. I love to play games like valorant, fifa.Currently reading - 'Becoming Michelle Obama'`,
+    `"An aspirant Full Stack web developer with a knack for crafting immersive digital experiences. With a diverse background spanning Web Development, Blockchain, and Game Development, I thrive on the fusion of creativity and technology. I love to play video games like valorant, fifa.`,
   personality:'INTJ- T',
   resumeLink:
-    'https://drive.google.com/file/d/1NQbvaWuTJVXlyEHC2_ryD-3_BsJnFTdJ/view?usp=sharing',
+    'https://drive.google.com/file/d/12qyVMbaQUjCNj1S7QzYue_djamgf8qkp/view?usp=drive_link',
 };
 
 export const openSource = {
@@ -175,7 +175,7 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Programming',
-    progressPercentage: '76',
+    progressPercentage: '86',
   },
 ];
 
@@ -184,14 +184,13 @@ export const educationInfo: EducationType[] = [
     schoolName: 'University of Dhaka',
     subHeader: 'Bachelor of Science in Software Engineering',
     duration: 'January 2019 - December 2023',
-    desc: 'Undergrad student from IIT, DU',
+    desc: 'Completed graduation from IIT, DU',
     grade: 'CGPA 3.92',
     descBullets: [
-      'Participated in the SCORE ICSE Competition',
-      'Became Champion of Bangladesh Blockchain Olympiad 2023',
-      'Became Champion of several national competition',
-      // 'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Participated in the SCORE ICSE Competition.',
+      'Became Champion of the Bangladesh Blockchain Olympiad 2023.',
+      'Accepted into the ICT Division Innovation Fund.',
+      'Received the Award of Distinction at the International Blockchain Olympiad 2023.'
     ],
   },
   {
@@ -201,8 +200,9 @@ export const educationInfo: EducationType[] = [
     desc: 'Completed Higher Secondary School Certificate',
     grade: 'GPA: 5.00',
     descBullets: [
-      'Secured General Scholarship from Dhaka Board',
-      'Executive Member of Notre Dame English Club',
+      'Secured the General Scholarship from Dhaka Board.',
+      'Served as an Executive Member of the Notre Dame English Club.',
+      'Actively participating in the Science and English Carnival.'
     ],
   },
   {
@@ -213,14 +213,13 @@ export const educationInfo: EducationType[] = [
     grade: 'GPA 5.00',
     descBullets: [
       'Secured Talentpool Scholarship from Chittagong Board, position 2nd',
-      // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'AR Developer',
+    role: 'AR Developer and Researcher',
     company: 'Fin2tech Solutions Limited',
     companyLogo: '/img/icons/common/fin2tech.jpg',
     date: 'july 2023 -Now ',
@@ -231,7 +230,7 @@ export const experience: ExperienceType[] = [
     company: 'Leads Corporation Bangladesh',
     companyLogo: '/img/icons/common/leads.jpg',
     date: 'December 2022 – June 2023',
-    desc: 'I worked as web3 full stack developer trainee to design web based apps, decentralized apps using Solidity, Hardhat, Ethereum, thirdweb, Chart.js and some other libraries.',
+    desc: "I worked as a Web3 Full Stack Developer trainee, specializing in designing web-based applications and decentralized apps (DApps). My role involved utilizing technologies such as Solidity, Hardhat, Ethereum, Thirdweb, Chart.js, and various other libraries to create innovative and functional solutions for the decentralized web.",
   },
   {
     role: 'API Engineer',
@@ -293,7 +292,7 @@ export const projects: ProjectType[] = [
     name: 'Somra Apps',
     desc: 'Research based project enhancing the ability to data analytics',
     link: 'https://somra.netlify.app/',
-    github: 'https://github.com/jsureka/BUET_Hackathon_GGWP',
+    github: 'https://github.com/jsureka/somra.git',
   },
   {
     image: '/img/icons/common/khelahobe.png',
