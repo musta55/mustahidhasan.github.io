@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
     `"An aspirant Full Stack web developer with a knack for crafting immersive digital experiences. With a diverse background spanning Web Development, Blockchain, and Game Development, I thrive on the fusion of creativity and technology. I love to play video games like valorant, fifa.`,
   personality:'INTJ- T',
   resumeLink:
-    'https://drive.google.com/file/d/12qyVMbaQUjCNj1S7QzYue_djamgf8qkp/view?usp=drive_link',
+    'https://drive.google.com/file/d/1sf1HKCSBothGgGea2fRPTNaio6ab2l0l/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://www.linkedin.com/in/mustahid-hasan-042241225',
+  url: 'https://drive.google.com/file/d/1sf1HKCSBothGgGea2fRPTNaio6ab2l0l/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/mustahid-hasan-042241225',
   github: 'https://github.com/musta55',
   leetcode: 'https://leetcode.com/Mustahid/',
